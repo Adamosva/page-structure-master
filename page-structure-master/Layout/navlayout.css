@@ -1,7 +1,7 @@
 /* The navbar container */
 .navbar {
     overflow: hidden;
-    background-color: #ff0000;
+    background-color: red;
     font-size: 16px;
   }
   
@@ -64,7 +64,7 @@
   
   /* Add a grey background color to dropdown links on hover */
   .dropmenucontent a:hover {
-    background-color: black;
+    background-color: grey;
   }
   
   /* Show the dropdown menu on hover */
