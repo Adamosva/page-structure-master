@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Simple Layout Demo</title>
+        <link rel="stylesheet" type="text/css" href="layoutResponsive.css"></link>
+        <link rel="stylesheet" type="text/css" href="navlayout.css"></link>
+    </head>
+    
+    <body>
+        <div class="header">This is the header</div>
+        <div class="navbar">
+            <a href="#">Menu Item 1</a>
+            <div class="dropmenu">
+                <button class="dmbutton">Menu Item 2</button>>
+                <div class="dropmenucontent">
+                    <a href="#">Sub Menu Item 1</a>
+                    <a href="#">Sub Menu Item 2</a>
+                </div>
+            </div>
+            <a href="#">Menu Item 3</a>
+        </div>
+        <div class="maincontainer">
+            <div class="leftcol">This is the left column</div>
+            <div class="maincontent">Here is the main content
+                <img src="google.jpg" alt="Nature" class="responsive">
+            </div>
+            <div class="rightcol">Now the right column
+                <p style="font-size:3vw;">I've put a load of text here so you can experiment to see what happens if we forget to clear the floats</p>
+                <p>I've put a load of text here so you can experiment to see what happens if we forget to clear the floats</p>
+            </div>
+        </div>
+        <div class="footer">Finally the footer &copy 2019 Edwards Enterprises Incorporated</div>
+    </body>
+</html>
